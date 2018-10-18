@@ -6,7 +6,8 @@ const driver = {
 
 // "before each" hook for "returns an driver with the original key value pairs and the new key value pair", does not modify the original driver, but rather returns a clone with the new data:
 function updateDriverWithKeyAndValue(driver, key, value) {
-driver[key] = value;
+const newDriver = {...driver};
+newDriver[key] = value;
 
 return driver;
 };
