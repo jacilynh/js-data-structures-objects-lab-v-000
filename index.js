@@ -30,4 +30,8 @@ return newDriver;
 
 
 // returns driver without the delete key/value pair, modifies the original driver:
-// destructivelyDeleteFromDriverByKey(driver, key)
+function destructivelyDeleteFromDriverByKey(driver, key) {
+const newDriver = {...driver};
+delete newDriver.key;
+return newDriver;
+};
