@@ -10,10 +10,10 @@
 // ReferenceError: driver is not defined
 //     at Context.<anonymous> (test/indexTest.js:10:25)
 
-// destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
+
 
 // updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver ‣
-
+// destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
 
 // deleteFromDriverByKey(driver, key)
 // deletes `key` from a clone of driver and returns the new driver (it is non-destructive) ‣
