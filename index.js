@@ -21,8 +21,10 @@ return driver;
 };
 
 
-// deletes `key` from a clone of driver and returns the new driver (it is non-destructive), does not modify the original driver (it is non-destructive):
-// deleteFromDriverByKey(driver, key)
+// deletes `key` from a clone of driver and returns the new driver (it is non-destructive), does not modify the original driver:
+function deleteFromDriverByKey(driver, key) {
+delete driver.key;
+};
 
 
 // returns driver without the delete key/value pair, modifies the original driver:
