@@ -14,7 +14,11 @@ return newDriver;
 
 
 // updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver:
-// destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+driver[key] = value;
+
+return driver;
+};
 
 
 // deletes `key` from a clone of driver and returns the new driver (it is non-destructive), does not modify the original driver (it is non-destructive):
