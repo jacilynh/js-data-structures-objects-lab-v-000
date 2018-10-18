@@ -1,11 +1,14 @@
 // defines a `driver` driver:
 const driver = {
   
-}
+};
 
 
 // "before each" hook for "returns an driver with the original key value pairs and the new key value pair" :
-// updateDriverWithKeyAndValue(driver, key, value)
+function updateDriverWithKeyAndValue(driver, key, value) {
+driver[key = [value]
+return driver;
+};
 
 
 // updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver:
