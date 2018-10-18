@@ -6,7 +6,7 @@ const driver = {
 
 // "before each" hook for "returns an driver with the original key value pairs and the new key value pair" :
 function updateDriverWithKeyAndValue(driver, key, value) {
-driver[key = [value];
+driver[key] = value;
 
 return driver;
 };
