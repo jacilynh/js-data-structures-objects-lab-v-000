@@ -1,4 +1,4 @@
-// defines a `driver` driver 
+// defines a `driver` driver:
 // drivers
 
 
@@ -16,4 +16,3 @@
 
 // returns driver without the delete key/value pair, modifies the original driver:
 // destructivelyDeleteFromDriverByKey(driver, key)
-
