@@ -31,7 +31,7 @@ return newDriver;
 
 // returns driver without the delete key/value pair, modifies the original driver:
 function destructivelyDeleteFromDriverByKey(driver, key) {
-delete driver.key;
+delete driver[key];
 return driver;
 };
 
